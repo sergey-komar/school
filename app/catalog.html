@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="img">
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="./index.html" class="menu__list-link">Главная</a>
+            </li>
+            <li class="menu__list-item menu__list-item--active">
+              <a href="#" class="menu__list-link">О Нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Программа обучения</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Мои ученики</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__wrapper">
+          <a href="#" class="header__wrapper-btn btn">В магазин</a>
+          <div class="header__content">
+            <a href="mailto:info@svschool.biz" class="header__content-email">info@svschool.biz</a>
+            <a href="#" class="header__content-link">Связаться с нами</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+    <main class="main">
+        <div class="breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb__list">
+                    <li class="breadcrumb__list-item">
+                        <a href="#" class="breadcrumb__list-link">Главная</a>
+                    </li>
+                    <li class="breadcrumb__list-item">
+                        <a href="#" class="breadcrumb__list-link">Каталог</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="catalog">
+            <div class="container">
+                <h1 class="catalog__title">Каталог товаров</h1>
+                <div class="search">
+                    <div class="search__title">Фильтры</div>
+                    <div class="search__wrapper">
+                        <a href="#" class="search__rezult">478 товаров</a>
+                        <div class="search__sort">
+                          <button class="search__sort-btn">Сортировать по</button>
+                          <ul class="search__list">
+                              <li><a class="search__list-link--active" href="#">По умолчанию</a></li>
+                              <li><a href="#">Сначала новые</a></li>
+                              <li><a href="#">Цена по убыванию</a></li>
+                              <li><a href="#">Цена по возрастанию</a></li>
+                          </ul>
+                        </div>
+                          
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="catalog-block">
+                    <div class="catalog-filter">
+                        <div class="catalog-filter__title">Категории</div>
+                        <div class="catalog-filter__inner">
+                            <form  class="catalog-filter__form">
+                                <input type="text" class="atalog-filter__form-input" placeholder="Поиск">
+                            </form>
+                        </div>
+    
+                        <form  class="catalog-filter__category">
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">Blake256</span>
+                                </div>
+                              
+                                <input class="catalog-filter__number" type="text" placeholder="1">
+                            </label>
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">Blake2b</span>
+                                </div>
+                              
+                                <input class="catalog-filter__number" type="text" placeholder="3">
+                            </label>
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">CryptoNight</span>
+                                </div>
+                             
+                                <input class="catalog-filter__number" type="text" placeholder="2">
+                            </label>
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">EagleSong</span>
+                                </div>
+                               
+                                <input class="catalog-filter__number" type="text" placeholder="0">
+                            </label>
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">Equihash</span>
+                                </div>
+                              
+                                <input class="catalog-filter__number" type="text" placeholder="8">
+                            </label>
+                            <label  class="catalog-filter__label">
+                                <div class="catalog-filter__wrapper">
+                                    <div class="catalog-filter__box">
+                                        <input type="checkbox" class="catalog-filter__box-input">
+                                        <span class="catalog-filter__box-checkbox"></span>
+                                    </div>
+                                    <span class="catalog-filter__text">Ethash</span>
+                                </div>
+                               
+                                <input class="catalog-filter__number" type="text" placeholder="10">
+                            </label>
+                        </form>
+
+                        <div class="catalog-filter__category-line"></div>
+    
+                        <div class="catalog-filter__price">
+                            <div class="catalog-filter__price-title">Стоимость</div>
+                            <div class="catalog-filter__price-line"></div>
+                        </div>
+    
+                        <a href="#" class="catalog-filter__btn btn">Применить</a>
+                        <a href="#" class="catalog-filter__button">Сбросить фильтры</a>
+                    </div>
+                    <div class="catalog-box">
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-box__item">
+                            <div class="catalog-box__wrapper">
+                                <div class="catalog-box__item-stock">В наличии</div>
+                                <div class="catalog-box__item-img">
+                                    <img src="./images/pngwing.png" alt="img">
+                                </div>
+                            </div>
+                           
+                            <div class="catalog-box__item-title">Набор отмычек</div>
+                            <div class="catalog-box__item-rate"></div>
+                            <p class="catalog-box__item-text">
+                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                            </p>
+                            <div class="catalog-box__item-price">20 000 ₽</div>
+    
+                            <div class="catalog-box__bottom">
+                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                <div class="catalog-box__bottom-heart">
+                                    <img src="./images/heart.svg" alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#" class="catalog-block__link">Показать больше</a>
+
+                <div class="pagination">
+                    <ul class="pagination__list">
+                        <li class="pagination__list-item pagination__list-item--active">
+                            <a href="#" class="pagination__list-link">1</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">2</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">3</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">4</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">5</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">6</a>
+                        </li>
+                        <li class="pagination__list-item">
+                            <a href="#" class="pagination__list-link">...</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer-block">
+            <div class="footer-block__item">
+              <div class="footer-block__item-title">Сервис</div>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">О компании</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Программа курса</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Оплата</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">FAQ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-block__item">
+              <div class="footer-block__item-title">Контакты</div>
+              <a href="tel:+70000000000" class="footer-block__item-phone">+7 (000) 000‑00-00</a>
+              <p class="footer-block__item-text">Электронная почта:</p>
+              <a href="mailto:info@sitename.ru" class="footer-block__item-email">info@sitename.ru</a>
+            </div>
+
+            <div class="footer-block__item">
+              <div class="footer-block__item-title">Соц. сети</div>
+              <div class="footer-block__social">
+                <a href="#" class="footer-block__social-link">
+                  <img src="./images/Vk.svg" alt="img">
+                </a>
+                <a href="#" class="footer-block__social-link">
+                  <img src="./images/Facebook.svg" alt="img">
+                </a>
+                <a href="#" class="footer-block__social-link">
+                  <img src="./images/Twitter.svg" alt="img">
+                </a>
+                <a href="#" class="footer-block__social-link">
+                  <img src="./images/Instagram.svg" alt="img">
+                </a>
+                <a href="#" class="footer-block__social-link">
+                  <img src="./images/Youtube 2.svg" alt="img">
+                </a>
+              </div>
+              <div class="footer-block__item-text">Название компании или ИП</div>
+              <div class="footer-block__item-info">© nazvaniesaita.ru, 2034 </div>
+              <div class="footer-block__item-info">ОГРН 0000000000000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+
+  <script src="https://unpkg.com/imask"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

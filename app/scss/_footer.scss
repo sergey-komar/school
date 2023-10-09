@@ -1,0 +1,53 @@
+.footer{
+    padding-top: 8rem;
+    padding-bottom: 17rem;
+    color: #fff;
+    background: #212830;
+}
+.container {
+}
+.footer__inner {
+}
+.footer-block {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-block__item {
+    width: 22rem;
+}
+.footer-block__item-title {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer__menu {
+}
+.footer__menu-item {
+    margin-bottom: 2rem;
+}
+.footer__menu-link {
+    font-size: 1.6rem;
+}
+.footer-block__item-phone {
+    display: block;
+    margin-bottom: 3.7rem;
+    color: #FAE44D;
+}
+.footer-block__item-text {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.footer-block__item-email {
+}
+.footer-block__social {
+    display: flex;
+    margin-bottom: 5rem;
+    gap: 2rem;
+}
+.footer-block__social-link {
+}
+.footer-block__item-info {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
