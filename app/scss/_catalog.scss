@@ -45,7 +45,7 @@
     color: #181818;
 }
 .search__wrapper {
-    margin-right: 5rem;
+    margin-right: 5.5rem;
     display: flex;
     align-items: center;
     gap: 3rem;
@@ -73,7 +73,7 @@
 .search__sort::after{
     position: absolute;
     content: '';
-    width: 2rem;
+    width: 2.5rem;
     height: 2rem;
     background: url('../images/arrows-catalog.svg') no-repeat;
     right: -20px;
@@ -136,6 +136,10 @@
     background: #F5F5F5;
     color: #181818;
 }
+// .catalog-filter__category{
+//     height: 250px;
+//     overflow-y: auto;
+// }
 .catalog-filter__title {
     margin-bottom: 1.5rem;
     font-size: 2rem;
@@ -151,7 +155,7 @@
     width: 20px;
     height: 20px;
     background: url('../images/search.svg') no-repeat;
-    top: 12px;
+    top: 10px;
     right: 20px;
 }
 .catalog-filter__form {
@@ -220,6 +224,42 @@
     font-size: 2rem;
     font-weight: 600;
 }
+.catalog-price__box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.4rem;
+}
+.filter-price__from,
+.filter-price__to {
+    display: block;
+    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    width: 18rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 24px;
+    background:  #E7E7E7;
+}
+.irs-handle {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: #FAE44D !important;
+}
+.irs--flat .irs-to,
+.irs--flat .irs-from{
+    background-color: #FAE44D !important;
+    color: #000 !important;
+}
+.irs-max{
+    display: none;
+}
+.irs--flat .irs-handle>i,
+.irs--flat .irs-bar{
+    background-color: transparent !important;
+}
+
 .catalog-filter__btn {
     display: block;
     margin-top: 3.2rem;
@@ -243,6 +283,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+}
+.catalog-box--hidden{
+    display: none;
+}
+.hidden{
+    display: flex;
 }
 .catalog-box__item {
     width: 31%;
@@ -305,7 +351,9 @@
     border: 1px solid #FAE44D;
 }
 
-
+.star{
+    margin-bottom: 1rem;
+}
 .catalog-block__link {
     display: block;
     width: 38rem;

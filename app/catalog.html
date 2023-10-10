@@ -44,6 +44,9 @@
             <a href="#" class="header__content-link">Связаться с нами</a>
           </div>
         </div>
+        <div class="nav-icon">
+            <div class="nav-icon__middle"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -84,7 +87,7 @@
             </div>
             <div class="container">
                 <div class="catalog-block">
-                    <div class="catalog-filter">
+                    <div class="catalog-filter sidebar--mobile">
                         <div class="catalog-filter__title">Категории</div>
                         <div class="catalog-filter__inner">
                             <form  class="catalog-filter__form">
@@ -165,146 +168,298 @@
     
                         <div class="catalog-filter__price">
                             <div class="catalog-filter__price-title">Стоимость</div>
-                            <div class="catalog-filter__price-line"></div>
+                          
+                            <form class="catalog-price__form">
+                                <input type="text" class="catalog-price__form-input"
+                                data-min="0"
+                                data-max="999"
+                                data-from="14"
+                                data-to="800">
+                                <label class="catalog-price__box">
+                                    
+                                       <span class="filter-price__from"></span>
+                                        <span class="filter-price__to"></span>
+                                   
+                                </label>
+                            </form>
                         </div>
-    
+                        <div class="catalog-filter__price-line"></div>
                         <a href="#" class="catalog-filter__btn btn">Применить</a>
                         <a href="#" class="catalog-filter__button">Сбросить фильтры</a>
                     </div>
-                    <div class="catalog-box">
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
+
+                    <div class="catalog__inner">
+                        <div class="catalog-box">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="4.5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
-    
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="4"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
-                                </div>
-                            </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
     
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
+                        <div class="catalog-box catalog-box--hidden">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="4.5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="4"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
-    
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
-    
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
+                                </div>
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
+                            <div class="catalog-box__item">
+                                <div class="catalog-box__wrapper">
+                                    <div class="catalog-box__item-stock">В наличии</div>
+                                    <div class="catalog-box__item-img">
+                                        <img src="./images/pngwing.png" alt="img">
+                                    </div>
                                 </div>
-                            </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
-    
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="catalog-box__item">
-                            <div class="catalog-box__wrapper">
-                                <div class="catalog-box__item-stock">В наличии</div>
-                                <div class="catalog-box__item-img">
-                                    <img src="./images/pngwing.png" alt="img">
-                                </div>
-                            </div>
-                           
-                            <div class="catalog-box__item-title">Набор отмычек</div>
-                            <div class="catalog-box__item-rate"></div>
-                            <p class="catalog-box__item-text">
-                                Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
-                            </p>
-                            <div class="catalog-box__item-price">20 000 ₽</div>
-    
-                            <div class="catalog-box__bottom">
-                                <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
-                                <div class="catalog-box__bottom-heart">
-                                    <img src="./images/heart.svg" alt="img">
+                               
+                                <div class="catalog-box__item-title">Набор отмычек</div>
+                                <div class="star" data-rateyo-rating="5"></div>
+                                <p class="catalog-box__item-text">
+                                    Алгоритм: SHA256  Криптовалюта: Bitcoin (BTC)  Хэшрейт (Мощность): 56Th/s  Потребление электроэнергии: 2520W
+                                </p>
+                                <div class="catalog-box__item-price">20 000 ₽</div>
+        
+                                <div class="catalog-box__bottom">
+                                    <a href="#" class="catalog-box__bottom-btn btn">В корзину</a>
+                                    <div class="catalog-box__bottom-heart">
+                                        <img src="./images/heart.svg" alt="img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                   
                 </div>
                 
                 <a href="#" class="catalog-block__link">Показать больше</a>
